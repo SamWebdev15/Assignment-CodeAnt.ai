@@ -55,22 +55,22 @@ const MobileNavbar = ({ onToggleSidebar }) => {
             ><BiHome />
               Repositories
             </Link>
-            <Link className="hover:bg-blue-500 hover:text-white p-2 rounded-md cursor-pointer flex items-center gap-2">
+            <Link  to='/login' className="hover:bg-blue-500 hover:text-white p-2 rounded-md cursor-pointer flex items-center gap-2">
               <IoCodeSlash /> AI Code Review
             </Link>
-            <Link className="hover:bg-blue-500 hover:text-white p-2 rounded-md cursor-pointer flex items-center gap-2">
+            <Link to='/login' className="hover:bg-blue-500 hover:text-white p-2 rounded-md cursor-pointer flex items-center gap-2">
               <IoIosCloudOutline /> Cloud Security
             </Link>
-            <Link className="hover:bg-blue-500 hover:text-white p-2 rounded-md cursor-pointer flex items-center gap-2">
+            <Link to='/login' className="hover:bg-blue-500 hover:text-white p-2 rounded-md cursor-pointer flex items-center gap-2">
               <LuBookText /> How to Use
             </Link>
-            <Link className="hover:bg-blue-500 hover:text-white p-2 rounded-md cursor-pointer flex items-center gap-2">
+            <Link to='/login' className="hover:bg-blue-500 hover:text-white p-2 rounded-md cursor-pointer flex items-center gap-2">
               <IoSettingsOutline /> Settings
             </Link>
-            <Link className="hover:bg-blue-500 hover:text-white p-2 rounded-md cursor-pointer flex items-center gap-2">
+            <Link  to='/login'className="hover:bg-blue-500 hover:text-white p-2 rounded-md cursor-pointer flex items-center gap-2">
               <FiPhone /> Support
             </Link>
-            <Link to='/login' className="hover:bg-blue-500 hover:text-white p-2 rounded-md cursor-pointer flex items-center gap-2">
+            <Link to='/login' to='/login' className="hover:bg-blue-500 hover:text-white p-2 rounded-md cursor-pointer flex items-center gap-2">
               <RxExit /> Logout
             </Link>
           </ul>
